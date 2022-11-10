@@ -29,3 +29,16 @@ print(listOfColors[3])
 # Print from element 1 to element 2
 print(listOfColors[1:3]) 
 # Python will print from index 1 to 2 (3 is not included)
+
+print("The available colors are red(0), green(1), blue(2)")
+i = input("Please select a color (type the corresponding number): ")
+# Remember that input will store the value the
+# user types in the variable i which is a string
+# First convert it to an integer to use as a list index
+
+newListOfColors = ["red", "green", "blue"]
+casper.color(newListOfColors[int(i)])
+
+for c in range(3):
+  casper.forward(30)
+  casper.left(120)
