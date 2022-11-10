@@ -19,7 +19,7 @@ for c in listOfColors:
 # The structure ['red', 'green', 'blue', 'yellow'] is also a list
 
 # Print just the first element of listOfColors to the console
-
+print("First")
 # Print just the second element of listOfColors to the console
 
 # Print just the third element of listOfColors to the console
